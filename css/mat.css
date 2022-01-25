@@ -1,0 +1,286 @@
+@import url(/css/product-info.css);
+.place-order {
+   display: flex;
+   justify-content: space-evenly;
+   color: #141414;
+   width: 90vw;
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+.gallery-container {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   /* width: 80%; */
+}
+
+.gallery-container img {
+   width: 100%;
+   height: 100%;
+}
+
+.gallery-display {
+   width: 80%;
+   height: 40rem;
+   margin: 0 auto;
+}
+
+/* .regular-img {
+   display: none;
+   height: 100%;
+
+   object-fit: cover;
+} */
+
+/* .active.regular-img {
+   display: block;
+} */
+
+.constructor-container {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+/* .active.constructor-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} */
+
+.constructor-container img {
+   position: absolute;
+   width: auto;
+   max-width: 100%;
+   height: 100%;
+}
+
+.gallery-img-container {
+   width: 80%;
+   margin: 2rem auto;
+}
+/* .images-menu {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   place-items: center;
+   row-gap: 1rem;
+} */
+/* .image {
+   width: 7rem;
+   position: relative;
+   height: 7rem; */
+/* padding: 0 1rem 1rem; */
+/* margin: 0 1rem 1rem; */
+/* cursor: pointer; */
+/* flex: 1 1 30%; */
+/* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+/* }  */
+
+/* .image::after {
+   position: absolute;
+   left: 0;
+   top: 0;
+   content: "";
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.4);
+} */
+
+/* .constructor-img {
+   width: 7rem;
+   height: 7rem;
+   cursor: pointer;
+}  */
+
+.options-wrapper {
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+}
+
+.option-text {
+   font-size: 1.7rem;
+   font-weight: 600;
+}
+
+.items-list,
+.items-list1,
+.items-list2 {
+   display: flex;
+
+   width: 80%;
+   flex-wrap: wrap;
+}
+/* .mat-romb {
+   background: url(../images/products/Коврики/type-icon/mat-Ромб.png) center
+      center;
+}
+.mat-sota {
+   background: url(../images/products/Коврики/type-icon/mat-Сота.png);
+} */
+.color-list,
+.color-list1,
+.color-list2 {
+   display: none;
+}
+.color-list.active1,
+.color-list1.active2,
+.color-list2.active3 {
+   display: block;
+}
+
+.items-list li,
+.items-list1 li,
+.items-list2 li {
+   margin: 0.5rem;
+   width: 4rem;
+   height: 4rem;
+}
+
+.items-list li img,
+.items-list1 li img,
+.items-list2 li img {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+.circle {
+   width: 4rem;
+   height: 4rem;
+   border-radius: 50%;
+   background-color: #141414;
+   cursor: pointer;
+   transition: all 0.1s ease-in-out;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.circle:hover {
+   transform: scale(1.05);
+}
+.active .circle {
+   border: 3px solid red;
+   transform: scale(1.1);
+}
+
+.b-color {
+   width: 4rem;
+   height: 4rem;
+   border-radius: 50%;
+   background-color: #141414;
+}
+
+.choose {
+   font-size: 1.3rem;
+   font-weight: 400;
+   margin: 0.5rem;
+}
+.choose span {
+   font-weight: 700;
+}
+.set-list {
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.set-item {
+   margin: 1rem;
+
+   font-size: 1.3rem;
+   display: flex;
+   align-items: center;
+}
+.set-item input {
+   width: 2rem;
+   height: 2rem;
+}
+/* .check-box {
+   width: 2rem;
+   height: 2rem;
+   padding: 0.5rem;
+   border: 0.1rem solid #ddd;
+
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
+.c {
+   color: gold;
+   display: none;
+}
+.active .c {
+   display: block;
+}
+
+.item-info {
+   margin-left: 1rem;
+}
+
+.set-price {
+   font-weight: 700;
+}
+
+.d {
+   display: flex;
+}
+
+.d-price {
+   margin-left: 1rem;
+}
+
+.receipt {
+   background-color: #141414;
+   width: 90vw;
+   max-width: 1180px;
+   margin: 2rem auto;
+   display: flex;
+   min-height: 20rem;
+}
+.receipt-info {
+   flex: 1;
+   margin: 2rem;
+   border-right: 0.1rem solid #ddd;
+}
+.receipt-item {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+}
+.receipt-price {
+   flex: 1;
+   margin: 2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   height: 100%;
+}
+
+.receipt-price h1 {
+   text-transform: capitalize;
+   letter-spacing: 0.1rem;
+   font-size: 2.5rem;
+   margin-bottom: 0.5rem;
+}
+.receipt-price p {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+}
+.add-to-cart {
+   margin-top: 2rem;
+   font-weight: 600;
+   /* cursor: pointer; */
+}
+
+.add-to-cart:hover {
+   background-color: #fff;
+   color: #141414;
+}
+
+.line-type-container.show-line-type-container {
+   display: block;
+}
+
+.load-images {
+   display: none;
+}

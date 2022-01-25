@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="../style.css" />
+
+      <script type="module" src="../js/capes.js" defer></script>
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <div class="hamburger">
+               <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="logo">
+               <a href="../index.html"
+                  ><img src="../images/ksv_logo.png" alt="barnd logo"
+               /></a>
+            </div>
+            <div class="menu-container">
+               <div class="times">
+                  <i class="fas fa-times"></i>
+               </div>
+               <ul class="menu">
+                  <li class="menu-item">
+                     <a class="menu-links" href="../index.html">главная</a>
+                  </li>
+                  <li class="menu-item drop-item">
+                     <a class="menu-links active" href="#"
+                        >продукты <i class="fas fa-chevron-down drop-icon"></i
+                     ></a>
+
+                     <!-- <i class="fas fa-chevron- drop-icon"></i> -->
+                     <div class="sub-menu-container">
+                        <ul class="sub-menu">
+                           <li class="sub-menu-item">
+                              <a href="/pages/eva-mat.html" class="menu-links"
+                                 >EVA коврики</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a
+                                 href="/pages/leather-mat.html"
+                                 class="menu-links"
+                                 >Коврики из кожи</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a href="/pages/capes.html" class="menu-links"
+                                 >Накидки</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a href="/pages/bags.html" class="menu-links"
+                                 >кофры</a
+                              >
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="menu-item">
+                     <a class="menu-links" href="">о нас</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="cart">
+               <i class="fas fa-shopping-cart"></i>
+               <span class="cart-number">0</span>
+            </div>
+         </nav>
+         <div class="product-info">
+            <h1 class="info-title">Накидки</h1>
+            <p class="info-text">
+               Мы потратили огромное количество времени, испробовали множество
+               материалов, перекроили нереальное количество размеров, искали
+               оптимальный вариант крепления, чтобы создать для вас удобные,
+               красивые накидки, которые будут дополнять интерьер вашего
+               автомобиля, выглядеть дорого и в то же время по доступной цене.
+            </p>
+         </div>
+      </header>
+      <main>
+         <div class="order-title">
+            <h1>Сформируйте свой заказ</h1>
+         </div>
+         <div class="place-order">
+            <div class="gallery-container">
+               <div class="gallery-display">
+                  <!-- <div class="regular-img active">
+                     <img
+                        src="../images/mat/real-images/1.jpg"
+                        alt=""
+                        class="diplay-img"
+                     />
+                  </div> -->
+                  <div class="constructor-container">
+                     <img
+                        src="../images/products/Накидки/Основа/бежевый.png"
+                        alt="mat material"
+                        class="base-color cape-ba"
+                     />
+                     <img
+                        src="../images/products/Накидки/Кантак/бежевый.png"
+                        alt="mat border"
+                        class="border-color cape-bo"
+                     />
+                  </div>
+               </div>
+               <!-- <div class="gallery-img-container">
+                  <ul class="images-menu">
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/1.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/1.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/2.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/2.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/3.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/3.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/4.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/4.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/5.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/5.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/6.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/6.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/7.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/7.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/mat/real-images/8.jpg"
+                           alt=""
+                           data-img="../images/mat/real-images/8.jpg"
+                        />
+                     </li>
+                     <li class="constructor-img">
+                        <img
+                           src="../images/products/Накидки/Основа/бежевый.png"
+                           alt=""
+                           data-img="../images/products/Накидки/Основа/бежевый.png"
+                        />
+                     </li>
+                  </ul>
+               </div> -->
+            </div>
+            <div class="options-wrapper">
+               <div class="cape-base-color" id="capes">
+                  <p class="option-text">1 шаг: выберите цвет материала</p>
+                  <ul class="items-list cape-color">
+                     <li class="active">
+                        <div
+                           class="circle base-color beige"
+                           data-img="../images/products/Накидки/Основа/бежевый.png"
+                           data-id="2"
+                           data-text="бежевый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color burgundy"
+                           data-img="../images/products/Накидки/Основа/бордовый.png"
+                           data-id="3"
+                           data-text="бордовый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color brown"
+                           data-img="../images/products/Накидки/Основа/коричневый.png"
+                           data-id="4"
+                           data-text="коричневый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color red"
+                           data-img="../images/products/Накидки/Основа/красный.png"
+                           data-id="6"
+                           data-text="красный"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color gray"
+                           data-img="../images/products/Накидки/Основа/серый.png"
+                           data-id="7"
+                           data-text="серый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color blue"
+                           data-img="../images/products/Накидки/Основа/синий.png"
+                           data-id="8"
+                           data-text="синий"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle base-color black"
+                           data-img="../images/products/Накидки/Основа/черный.png"
+                           data-id="9"
+                           data-text="черный"
+                        ></div>
+                     </li>
+                  </ul>
+                  <p class="choose">
+                     выбран :
+                     <span class="choose-cape-base-color">бежевый</span>
+                  </p>
+               </div>
+               <div class="cape-border-color">
+                  <p class="option-text">2 шаг: выберите цвет окантовки</p>
+                  <ul class="items-list bordercolor1">
+                     <li class="active">
+                        <div
+                           class="circle border-color beige"
+                           data-img="../images/products/Накидки/Кантак/бежевый.png"
+                           data-id="14"
+                           data-text="бежевый"
+                        ></div>
+                     </li>
+
+                     <li>
+                        <div
+                           class="circle border-color burgundy"
+                           data-img="../images/products/Накидки/Кантак/бордовый.png"
+                           data-id="2"
+                           data-text="бордовый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-color brown"
+                           data-img="../images/products/Накидки/Кантак/коричневый.png"
+                           data-id="17"
+                           data-text="коричневый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-color red"
+                           data-img="../images/products/Накидки/Кантак/красный.png"
+                           data-id="12"
+                           data-text="красный"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-color gray"
+                           data-img="../images/products/Накидки/Кантак/серый.png"
+                           data-id="13"
+                           data-text="серый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-color blue"
+                           data-img="../images/products/Накидки/Кантак/синий.png"
+                           data-id="4"
+                           data-text="синий"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-color black"
+                           data-img="../images/products/Накидки/Кантак/черный.png"
+                           data-id="15"
+                           data-text="черный"
+                        ></div>
+                     </li>
+                  </ul>
+                  <p class="choose">
+                     выбран :
+                     <span class="choose-cape-border-color">бежевый</span>
+                  </p>
+               </div>
+               <div class="complete-set">
+                  <p class="option-text">3 шаг: выберите комплектацию</p>
+                  <ul class="set-list"></ul>
+               </div>
+            </div>
+         </div>
+         <div class="receipt">
+            <div class="receipt-info">
+               <ul class="receipt-list">
+                  <li class="receipt-item">
+                     <p>Комплект на перед</p>
+                     <p>2650 руб.</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="receipt-price">
+               <h1>Сумма заказа:</h1>
+               <p><span class="f-price">2 650</span> руб.</p>
+               <button class="btn add-to-cart">Добавить в корзину</button>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="footer-content">
+            <div class="footer-info">
+               <p><span>Email: </span>avtoatelie.ksv@gmail.com</p>
+               <p><span>ТЕЛЕФОН: </span>+7 906 494 99 55</p>
+               <p><span>адрес: </span>ул. Курсантов Кировцев 12б</p>
+            </div>
+            <div class="social-media">
+               <a
+                  href="https://www.instagram.com/avtoatelie_ksv/?hl=en"
+                  target="_blank"
+               >
+                  <i class="fab fa-instagram"> </i>
+               </a>
+               <a href="tel:+79064949955"><i class="fas fa-phone"></i></a>
+            </div>
+         </div>
+      </footer>
+      <div class="load-images">
+         <!-- base -->
+         <img src="../images/products/Накидки/Основа/бежевый.png" />
+         <img src="../images/products/Накидки/Основа/бордовый.png" />
+         <img src="../images/products/Накидки/Основа/коричневый.png" />
+         <img src="../images/products/Накидки/Основа/красный.png" />
+         <img src="../images/products/Накидки/Основа/серый.png" />
+         <img src="../images/products/Накидки/Основа/синий.png" />
+         <img src="../images/products/Накидки/Основа/черный.png" />
+         <!-- end base -->
+         <!-- border -->
+         <img src="../images/products/Накидки/Кантак/бежевый.png" />
+         <img src="../images/products/Накидки/Кантак/бордовый.png" />
+         <img src="../images/products/Накидки/Кантак/коричневый.png" />
+         <img src="../images/products/Накидки/Кантак/красный.png" />
+         <img src="../images/products/Накидки/Кантак/серый.png" />
+         <img src="../images/products/Накидки/Кантак/синий.png" />
+         <img src="../images/products/Накидки/Кантак/черный.png" />
+         <!-- end border -->
+      </div>
+   </body>
+</html>

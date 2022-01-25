@@ -1,0 +1,90 @@
+@media screen and (max-width: 1112px) {
+   .gallery-display {
+      height: 25rem;
+   }
+   .images-menu {
+      grid-template-columns: repeat(5, 1fr);
+   }
+}
+@media screen and (max-width: 834px) {
+   .images-menu {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+@media screen and (max-width: 768px) {
+   .image {
+      width: 6rem;
+      height: 6rem;
+      margin-right: 0.5rem;
+   }
+   .constructor-img {
+      width: 5.5rem;
+      height: 5.5rem;
+   }
+}
+
+@media screen and (max-width: 575.98px) {
+   .place-order {
+      flex-direction: column;
+   }
+   .order-title h1 {
+      font-size: 2rem;
+   }
+   .gallery-display {
+      width: 90vw;
+      height: 30rem;
+   }
+   .gallery-img-container {
+      width: 90vw;
+
+      margin: 1rem auto;
+   }
+   .images-menu {
+      /* grid-template-columns: repeat(3, 1fr); */
+      display: flex;
+   }
+   .image {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 0.3rem;
+   }
+   .constructor-img {
+      width: 5rem;
+      height: 5rem;
+   }
+   .items-list,
+   .items-list1,
+   .items-list2 {
+      width: 90vw;
+   }
+   .set-list {
+      width: 90vw;
+      /* grid-gap: 0.5rem; */
+   }
+   .set-item {
+      margin: 0.5rem 0;
+
+      font-size: 1.14rem;
+      display: flex;
+      align-items: center;
+   }
+   .set-item input {
+      width: 1.5rem;
+      height: 1.5rem;
+   }
+   .item-info {
+      margin-left: 0.5rem;
+   }
+
+   .receipt {
+      flex-direction: column;
+   }
+   .receipt-info {
+      border-bottom: 0.1rem solid #ddd;
+      border-right: none;
+      padding-bottom: 3rem;
+   }
+   .receipt-price h1 {
+      font-size: 2rem;
+   }
+}

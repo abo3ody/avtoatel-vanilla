@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+         crossorigin="anonymous"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="../style.css" />
+      <script type="module" src="../js/mat.js"></script>
+
+      <title>Document</title>
+   </head>
+   <body>
+      <header>
+         <nav class="navbar">
+            <div class="hamburger">
+               <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="logo">
+               <a href="../index.html"
+                  ><img src="../images/ksv_logo.png" alt="barnd logo"
+               /></a>
+            </div>
+            <div class="menu-container">
+               <div class="times">
+                  <i class="fas fa-times"></i>
+               </div>
+               <ul class="menu">
+                  <li class="menu-item">
+                     <a class="menu-links" href="../index.html">главная</a>
+                  </li>
+                  <li class="menu-item drop-item">
+                     <a class="menu-links active" href="#"
+                        >продукты <i class="fas fa-chevron-down drop-icon"></i
+                     ></a>
+
+                     <!-- <i class="fas fa-chevron- drop-icon"></i> -->
+                     <div class="sub-menu-container">
+                        <ul class="sub-menu">
+                           <li class="sub-menu-item">
+                              <a href="/pages/eva-mat.html" class="menu-links"
+                                 >EVA коврики</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a
+                                 href="/pages/leather-mat.html"
+                                 class="menu-links"
+                                 >Коврики из кожи</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a href="/pages/capes.html" class="menu-links"
+                                 >Накидки</a
+                              >
+                           </li>
+                           <li class="sub-menu-item">
+                              <a href="/pages/bags.html" class="menu-links"
+                                 >кофры</a
+                              >
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="menu-item">
+                     <a class="menu-links" href="">о нас</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="cart">
+               <i class="fas fa-shopping-cart"></i>
+               <span class="cart-number">0</span>
+            </div>
+         </nav>
+         <div class="product-info">
+            <h1 class="info-title">EVA Коврики</h1>
+            <p class="info-text">
+               Для производства лучших ЭВА ковриков в стране, мы используем
+               лучший ЭВА материал, лучшую фурнитуру, окантовку, липучку и самое
+               главное лично снятые лекала с каждого авто. Гарантируем качество
+               и даём гарантию на всё, что производим.
+            </p>
+         </div>
+      </header>
+      <main>
+         <div class="order-title">
+            <h1>Сформируйте свой заказ</h1>
+         </div>
+         <div class="place-order">
+            <div class="gallery-container">
+               <div class="gallery-display">
+                  <!-- <div class="regular-img ">
+                     <img
+                        src="../images/products/Коврики/eva-images/1.jpg"
+                        alt=""
+                        class="diplay-img"
+                     />
+                  </div> -->
+                  <div class="constructor-container">
+                     <img
+                        src="../images/products/Коврики/ЭВА_ромб/бежевый.png"
+                        alt=""
+                        class="base-color mat-ba"
+                     />
+                     <img
+                        src="../images/products/Коврики/Кантики/ЭВА/бежевый.png"
+                        alt=""
+                        class="border-color mat-bo"
+                     />
+                     <img
+                        src="../images/products/Коврики/Строчка_по_кантику/бежевый.png"
+                        alt=""
+                        class="border-line-color mat-bo-line"
+                     />
+                  </div>
+               </div>
+               <!-- <div class="gallery-img-container">
+                  <ul class="images-menu">
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/1.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/1.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/2.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/2.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/3.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/3.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/4.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/4.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/5.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/5.jpg"
+                        />
+                     </li>
+                     <li class="image">
+                        <img
+                           src="../images/products/Коврики/eva-images/6.jpg"
+                           alt=""
+                           data-img="../images/products/Коврики/eva-images/6.jpg"
+                        />
+                     </li>
+
+                     <li class="constructor-img">
+                        <img
+                           src="../images/products/Коврики/ЭВА_ромб/бежевый.png"
+                           alt=""
+                           data-img="../images/products/Коврики/ЭВА_ромб/бежевый.png"
+                        />
+                     </li>
+                  </ul>
+               </div> -->
+            </div>
+            <div class="options-wrapper">
+               <div class="material-type">
+                  <p class="option-text">1 шаг: выберите тип материала</p>
+                  <ul class="items-list mat-type">
+                     <li class="active">
+                        <div
+                           class="circle type mat-romb"
+                           data-base="../images/products/Коврики/ЭВА_ромб/бежевый.png"
+                           data-border="../images/products/Коврики/Кантики/ЭВА/бежевый.png"
+                           data-borderline="../images/products/Коврики/Строчка_по_кантику/бежевый.png"
+                           data-text="ЭВА ромб"
+                           data-class="romb"
+                        >
+                           <img
+                              src="../images/products/Коврики/type-icon/mat-Ромб.png"
+                              alt=""
+                           />
+                        </div>
+                     </li>
+                     <li class="">
+                        <div
+                           class="circle type mat-sota"
+                           data-base="../images/products/Коврики/ЭВА_сота/бежевый.png"
+                           data-border="../images/products/Коврики/Кантики/ЭВА/бежевый.png"
+                           data-borderline="../images/products/Коврики/Строчка_по_кантику/бежевый.png"
+                           data-text="ЭВА сота"
+                           data-class="sota"
+                        >
+                           <img
+                              src="../images/products/Коврики/type-icon/mat-Сота.png"
+                              alt=""
+                           />
+                        </div>
+                     </li>
+                  </ul>
+                  <p class="choose">
+                     выбран : <span class="choose-mat-type">ЭВА ромб</span>
+                  </p>
+               </div>
+               <div class="mat-base-color">
+                  <p class="option-text">2 шаг: выберите цвет коврика</p>
+                  <div class="color-list romb active1">
+                     <ul class="items-list">
+                        <li class="active">
+                           <div
+                              class="circle base-color beige"
+                              data-img="../images/products/Коврики/ЭВА_ромб/бежевый.png"
+                              data-id="14"
+                              data-text="бежевый"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle base-color burgundy"
+                              data-img="../images/products/Коврики/ЭВА_ромб/бордовый.png"
+                              data-id="2"
+                              data-text="бордовый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color brown"
+                              data-img="../images/products/Коврики/ЭВА_ромб/коричневый.png"
+                              data-id="17"
+                              data-text="коричневый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color red"
+                              data-img="../images/products/Коврики/ЭВА_ромб/красный.png"
+                              data-id="12"
+                              data-text="красный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color gray"
+                              data-img="../images/products/Коврики/ЭВА_ромб/серый.png"
+                              data-id="13"
+                              data-text="серый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color blue"
+                              data-img="../images/products/Коврики/ЭВА_ромб/синий.png"
+                              data-id="4"
+                              data-text="синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color black"
+                              data-img="../images/products/Коврики/ЭВА_ромб/черный.png"
+                              data-id="15"
+                              data-text="черный"
+                           ></div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="color-list sota">
+                     <ul class="items-list">
+                        <li class="active">
+                           <!-- <img src="../images/products/Коврики/ЭВА _сота/бежевый.png" alt=""> -->
+                           <div
+                              class="circle base-color beige"
+                              data-img="../images/products/Коврики/ЭВА_сота/бежевый.png"
+                              data-id="14"
+                              data-text="бежевый"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle base-color burgundy"
+                              data-img="../images/products/Коврики/ЭВА_сота/бордовый.png"
+                              data-id="2"
+                              data-text="бордовый"
+                           ></div>
+                        </li>
+                        <li>
+                           <!-- <img
+                              src="../images/products/Коврики/ЭВА_сота/черный.png"
+                              alt=""
+                           /> -->
+
+                           <div
+                              class="circle base-color brown"
+                              data-img="../images/products/Коврики/ЭВА_сота/коричневый.png"
+                              data-id="17"
+                              data-text="коричневый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color red"
+                              data-img="../images/products/Коврики/ЭВА_сота/красный.png"
+                              data-id="12"
+                              data-text="красный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color gray"
+                              data-img="../images/products/Коврики/ЭВА_сота/серый.png"
+                              data-id="13"
+                              data-text="серый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color blue"
+                              data-img="../images/products/Коврики/ЭВА_сота/синий.png"
+                              data-id="4"
+                              data-text="синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color black"
+                              data-img="../images/products/Коврики/ЭВА_сота/черный.png"
+                              data-id="15"
+                              data-text="черный"
+                           ></div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- <div class="color-list leather">
+                     <ul class="items-list">
+                        <li class="active">
+                           <div
+                              class="circle base-color beige"
+                              data-img="../images/products/Коврики/Кожа/Бежевый.png"
+                              data-id="14"
+                              data-text="бежевый"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle base-color burgundy"
+                              data-img="../images/products/Коврики/Кожа/Бордовый.png"
+                              data-id="2"
+                              data-text="бордовый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color brown"
+                              data-img="../images/products/Коврики/Кожа/Коричневый.png"
+                              data-id="17"
+                              data-text="коричневый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color red"
+                              data-img="../images/products/Коврики/Кожа/Красный.png"
+                              data-id="12"
+                              data-text="красный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color gray"
+                              data-img="../images/products/Коврики/Кожа/Серый.png"
+                              data-id="13"
+                              data-text="серый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color blue"
+                              data-img="../images/products/Коврики/Кожа/Синий.png"
+                              data-id="4"
+                              data-text="синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color black"
+                              data-img="../images/products/Коврики/Кожа/Черный.png"
+                              data-id="15"
+                              data-text="черный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color orange"
+                              data-img="../images/products/Коврики/Кожа/Оранжевый.png"
+                              data-id="15"
+                              data-text="оранжевый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color dark-blue"
+                              data-img="../images/products/Коврики/Кожа/Темно-синий.png"
+                              data-id="15"
+                              data-text="Темно-синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle base-color white"
+                              data-img="../images/products/Коврики/Кожа/Белыый.png"
+                              data-id="15"
+                              data-text="белый"
+                           ></div>
+                        </li>
+                     </ul>
+                  </div> -->
+
+                  <p class="choose">
+                     выбран :
+                     <span class="choose-mat-base-color">бежевый</span>
+                  </p>
+               </div>
+               <div class="mat-border-color">
+                  <p class="option-text">3 шаг: выберите цвет окантовки</p>
+                  <div class="color-list1 b-eva active2">
+                     <ul class="items-list1">
+                        <li class="active">
+                           <div
+                              class="circle border-color beige"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/бежевый.png"
+                              data-id="14"
+                              data-text="бежевый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color burgundy"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/бордовый.png"
+                              data-id="9"
+                              data-text="Бордовый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color brown"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/коричневый.png"
+                              data-id="8"
+                              data-text="Коричневый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color red"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/красный.png"
+                              data-id="18"
+                              data-text="Красный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color gray"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/серый.png"
+                              data-id="1"
+                              data-text="Серый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color blue"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/синий.png"
+                              data-id="10"
+                              data-text="Синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color black"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/черный.png"
+                              data-id="19"
+                              data-text="Черный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color light-blue"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/голубой.png"
+                              data-id="3"
+                              data-text="Голубой"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle border-color silver"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/серебристый.png"
+                              data-id="16"
+                              data-text="Серебристый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color green"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/зеленый.png"
+                              data-id="2"
+                              data-text="Зеленый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color dark-blue"
+                              data-img="../images/products/Коврики/Кантики/ЭВА/темно-синий.png"
+                              data-id="17"
+                              data-text="Темно-синий"
+                           ></div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- <div class="color-list1 b-leather">
+                     <ul class="items-list1">
+                        <li>
+                           <div
+                              class="circle border-color beige"
+                              data-img="../images/products/Коврики/Кантики/кожаный/бежевый.png"
+                              data-id="14"
+                              data-text="Бежевый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color burgundy"
+                              data-img="../images/products/Коврики/Кантики/кожаный/бордовый.png"
+                              data-id="9"
+                              data-text="Бордовый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color brown"
+                              data-img="../images/products/Коврики/Кантики/кожаный/коричневый.png"
+                              data-id="8"
+                              data-text="Коричневый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color red"
+                              data-img="../images/products/Коврики/Кантики/кожаный/красный.png"
+                              data-id="18"
+                              data-text="Красный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color gray"
+                              data-img="../images/products/Коврики/Кантики/кожаный/серый.png"
+                              data-id="1"
+                              data-text="Серый"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color blue"
+                              data-img="../images/products/Коврики/Кантики/кожаный/синий.png"
+                              data-id="10"
+                              data-text="Синий"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color black"
+                              data-img="../images/products/Коврики/Кантики/кожаный/Черный.png"
+                              data-id="19"
+                              data-text="Черный"
+                           ></div>
+                        </li>
+                        <li>
+                           <div
+                              class="circle border-color white"
+                              data-img="../images/products/Коврики/Кантики/кожаный/белый.png"
+                              data-id="3"
+                              data-text="белый"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle border-color orange"
+                              data-img="../images/products/Коврики/Кантики/кожаный/Оранжевый.png"
+                              data-id="16"
+                              data-text="Оранжевый"
+                           ></div>
+                        </li>
+
+                        <li>
+                           <div
+                              class="circle border-color dark-blue"
+                              data-img="../images/products/Коврики/Кантики/кожаный/темно-синий.png"
+                              data-id="17"
+                              data-text="Темно-синий"
+                           ></div>
+                        </li>
+                     </ul>
+                  </div> -->
+                  <p class="choose">
+                     выбран :
+                     <span class="choose-mat-border-color">бежевый</span>
+                  </p>
+               </div>
+               <div class="mat-border-line-color">
+                  <p class="option-text">
+                     4 шаг: выберите цвет строчки по кантику
+                  </p>
+                  <ul class="items-list">
+                     <li class="active">
+                        <div
+                           class="circle border-line-color beige"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/бежевый.png"
+                           data-id="2"
+                           data-text="бежевый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color burgundy"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/бордовый.png"
+                           data-id="3"
+                           data-text="бордовый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color brown"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/коричневый.png"
+                           data-id="4"
+                           data-text="коричневый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color red"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/красный.png"
+                           data-id="6"
+                           data-text="красный"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color gray"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/серый.png"
+                           data-id="7"
+                           data-text="серый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color blue"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/синий.png"
+                           data-id="8"
+                           data-text="синий"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color black"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/черный.png"
+                           data-id="9"
+                           data-text="черный"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color orange"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/оранжевый.png"
+                           data-id="12"
+                           data-text="оранжевый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color white"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/белый.png"
+                           data-id="12"
+                           data-text="белый"
+                        ></div>
+                     </li>
+                     <li>
+                        <div
+                           class="circle border-line-color dark-blue"
+                           data-img="../images/products/Коврики/Строчка_по_кантику/темно-синий.png"
+                           data-id="12"
+                           data-text="темно-синий"
+                        ></div>
+                     </li>
+                  </ul>
+                  <p class="choose">
+                     выбран :
+                     <span class="choose-mat-border-line-color">бежевый</span>
+                  </p>
+               </div>
+
+               <div class="complete-set">
+                  <p class="option-text">выберите комплектацию</p>
+                  <ul class="set-list"></ul>
+               </div>
+               <div class="complete-set">
+                  <p class="option-text">Дополнительные аксессуары:</p>
+                  <ul class="extra-list">
+                     <li class="set-item active">
+                        <span class="check-box"
+                           ><span class="c"><i class="fas fa-check"></i></span
+                        ></span>
+                        <div class="item-info d">
+                           <p>Значок</p>
+                           <p class="set-price d-price">+200 руб.</p>
+                        </div>
+                     </li>
+                     <li class="set-item">
+                        <span class="check-box"
+                           ><span class="c"><i class="fas fa-check"></i></span
+                        ></span>
+                        <div class="item-info d">
+                           <p>Подпятник</p>
+                           <p class="set-price d-price">+200 руб.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="receipt">
+            <div class="receipt-info">
+               <ul class="receipt-list">
+                  <li class="receipt-item">
+                     <p>Комплект ковриков в салон</p>
+                     <p>2 650 руб.</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="receipt-price">
+               <h1>Сумма заказа:</h1>
+               <p><span class="f-price">2 650</span> руб.</p>
+               <button class="btn add-to-cart">Добавить в корзину</button>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="footer-content">
+            <div class="footer-info">
+               <p><span>Email: </span>avtoatelie.ksv@gmail.com</p>
+               <p><span>ТЕЛЕФОН: </span>+7 906 494 99 55</p>
+               <p><span>адрес: </span>ул. Курсантов Кировцев 12б</p>
+            </div>
+            <div class="social-media">
+               <a
+                  href="https://www.instagram.com/avtoatelie_ksv/?hl=en"
+                  target="_blank"
+               >
+                  <i class="fab fa-instagram"> </i>
+               </a>
+               <a href="tel:+79064949955"><i class="fas fa-phone"></i></a>
+            </div>
+         </div>
+      </footer>
+      <div class="load-images">
+         <!-- base romb -->
+         <img src="../images/products/Коврики/ЭВА_ромб/бежевый.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/бордовый.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/коричневый.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/красный.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/серый.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/синий.png" />
+         <img src="../images/products/Коврики/ЭВА_ромб/черный.png" />
+         <!-- end  base romb-->
+         <!-- base sota -->
+         <img src="../images/products/Коврики/ЭВА_сота/бежевый.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//бордовый.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//коричневый.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//красный.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//серый.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//синий.png" />
+         <img src="../images/products/Коврики/ЭВА_сота//черный.png" />
+         <!-- end base sota -->
+         <!-- border -->
+         ../images/products/Коврики/Кантики/ЭВА/бежевый.png
+         <img src="../images/products/Коврики/Кантики/ЭВА/бежевый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/бордовый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/коричневый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/красный.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/серый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/голубой.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/черный.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/темно-синий.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/серебристый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/зеленый.png" />
+         <img src="../images/products/Коврики/Кантики/ЭВА/синий.png" />
+
+         <!-- end border -->
+         <!-- border line  -->
+         <img src="../images/products/Коврики/Строчка_по_кантику/бежевый.png" />
+         <img
+            src="../images/products/Коврики/Строчка_по_кантику/бордовый.png"
+         />
+         <img
+            src="../images/products/Коврики/Строчка_по_кантику/коричневый.png"
+         />
+         <img src="../images/products/Коврики/Строчка_по_кантику/красный.png" />
+         <img src="../images/products/Коврики/Строчка_по_кантику/серый.png" />
+         <img src="../images/products/Коврики/Строчка_по_кантику/синий.png" />
+         <img src="../images/products/Коврики/Строчка_по_кантику/черный.png" />
+         <img
+            src="../images/products/Коврики/Строчка_по_кантику/оранжевый.png"
+         />
+         <img src="../images/products/Коврики/Строчка_по_кантику/белый.png" />
+         <img
+            src="../images/products/Коврики/Строчка_по_кантику/темно-синий.png"
+         />
+
+         <!-- end border line  -->
+      </div>
+   </body>
+</html>
